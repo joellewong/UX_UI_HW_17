@@ -5,26 +5,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> Joelle Portfolio </title>
 </head>
 
 <body>
     <header>
-        <img src="../UX_UI_HW_17/images/logo.png" alt="Joelle Wong">
-        <ul>
-            <li class="navigation"> <a href="#"> Portfolio </a> </li>
-            <li class="navigation"> <a href="#"> About Me </a> </li>
-            <li class="navigation"> <a href="#"> Resume </a> </li>
-        </ul>
-        <a href="https://www.linkedin.com/in/joelle-wong-1a4076163/"> <img src="../UX_UI_HW_17/images/instagram.png" alt="Instagram"> </a>
+        <div class="inline-block, logo">
+            <img src="../UX_UI_HW_17/images/logo.png" alt="Joelle Wong Logo">
+        </div>
+        <nav class="inline-block">
+            <ul>
+                <li> <a href="#"> Portfolio </a> </li>
+                <li> <a href="#"> About Me </a> </li>
+                <li> <a href="#"> Resume </a> </li>
+            </ul>
+        </nav>
+        <div class="inline-block">
+            <a href="https://www.linkedin.com/in/joelle-wong-1a4076163/"> <img src="../UX_UI_HW_17/images/instagram.png" alt="Instagram"> </a>
+        </div>
     </header>
 
-    <section>
-        
+    <section class="hero">
+        <div class="content">
+            <img src="../UX_UI_HW_17/images/joelle.png" alt="Picture of Joelle">
+            <h3> Hi, I'm </h3>
+            <h1> Joelle Wong </h1>
+        </div>
+        <h4> I am passionate about making functional stuff look pretty. </h4>
     </section>
 
     <footer>
-
+        <h3> Contact Me! </h3>
+        <form>
+            <label for="name"> Name </label> <br>
+            <input type="text" name="name"> <br>
+            <label for="email"> Email </label> <br>
+            <input type="text" name="email"> <br>
+            <label for="message"> Your Message Here... </label> <br>
+            <input type="text" name="message"> <br>
+            <input type="button" value="SEND!">
+        </form>
     </footer>
 </body>
 </html>
