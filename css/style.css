@@ -1,0 +1,103 @@
+/* ----- FONTS ----- */
+h1 {
+    font-family: 'Unbounded', cursive;
+    font-weight: 800;
+    font-size: 78px;
+    margin: auto;
+}
+h2 {
+    font-family: 'Unbounded', cursive;
+    font-weight: 200;
+    font-size: 78px;
+    margin: auto;
+}
+h3 {
+    font-family: 'Unbounded', cursive;
+    font-weight: 400;
+    font-size: 36px;
+}
+h4 {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+}
+h5 {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 24px;
+}
+p {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* ----- HEADER ----- */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+}
+.inline-block {
+    display: flex;
+}
+.navigation li {
+    display: inline-block;
+    margin-right: 25px;
+    text-decoration: none;
+}
+.navigation li a {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: #150e36;
+}
+
+/* ----- HERO SECTION ------ */
+.hero {
+    margin-right: auto;
+    margin-left: auto;
+}
+.content {
+    display: flex;
+    justify-content: center;
+}
+.intro {
+    width: 1142px;
+    height: 342px;
+    background-color: #F9C373;
+}
+
+/* ----- FOOTER ----- */
+footer {
+    background-color: #B5C995;
+    padding: 32px;
+}
+form {
+    column-count: 2;
+}
+label {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-size: 14px;
+}
+input[type=submit] {
+    background-color: #363666;
+    border: none;
+    border-radius: 5px;
+
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 14px;
+    color: #FFFEF4;
+
+    padding: 15px 30px;
+    text-decoration: none;
+    margin: 8px 4px;
+}
+.social a {
+    margin: 8px;
+}
