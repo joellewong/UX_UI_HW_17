@@ -1,4 +1,6 @@
-/* ----- FONTS ----- */
+/* ----------------- */
+/*       FONTS       */
+/* ----------------- */
 h1 {
     font-family: 'Unbounded', cursive;
     font-weight: 800;
@@ -33,7 +35,9 @@ p {
     font-size: 14px;
 }
 
-/* ----- HEADER ----- */
+/* -------------------- */
+/*        HEADER        */
+/* -------------------- */
 header {
     display: flex;
     justify-content: space-between;
@@ -56,22 +60,28 @@ header {
     color: #150e36;
 }
 
-/* ----- HERO SECTION ------ */
+/* ------------------------- */
+/*       HERO SECTION        */
+/* ------------------------- */
 .hero {
     margin-right: auto;
     margin-left: auto;
 }
-.content {
+/* .content {
     display: flex;
     justify-content: center;
-}
+} */
 .intro {
-    width: 1142px;
-    height: 342px;
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    height: 75%;
     background-color: #F9C373;
 }
 
-/* ----- FOOTER ----- */
+/* ------------------ */
+/*       FOOTER       */
+/* ------------------ */
 footer {
     background-color: #B5C995;
     padding: 32px;
