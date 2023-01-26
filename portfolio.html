@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Joelle Portfolio </title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/UX_UI_HW_17/css/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,25 +16,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://kit.fontawesome.com/3e6b1d5ccc.css" crossorigin="anonymous">
 </head>
 
 <body>
 
-    <header>
+    <header class="header">
 
-        <div class="inline-block">
-            <img src="/images/logo.png" alt="Joelle Wong Logo" width="158" height="56">
-        </div>
+        <nav class="nav">
 
-        <nav class="inline-block">
+            <img class="nav-logo" src="/UX_UI_HW_17/images/logo.png" alt="Joelle Wong Logo">
 
-            <ul class="navigation">
-
-                <li> <a href="#"> Portfolio </a> </li>
-                <li> <a href="#"> About Me </a> </li>
-                <li> <a href="#"> Resume </a> </li>
-                <li> <a href="https://www.linkedin.com/in/joelle-wong-1a4076163/"> <img src="/images/linkedin.png" alt="Instagram" width="45" height="45"> </a> </li>
-
+            <ul class="nav-items">
+                <li> <a class="nav-links" href="#"> Projects </a> </li>
+                <li> <a class="nav-links" href="#"> About Me </a> </li>
+                <li> <a class="nav-links" href="#"> Resume </a> </li>
+                <li> <a class="nav-links-linkedin" href="https://www.linkedin.com/in/joelle-wong-1a4076163/"> <i class="fa-brands fa-linkedin-in"></i> </a> </li>
             </ul>
 
         </nav>
@@ -42,35 +40,45 @@
     </header>
 
 
-    <section class="hero">
+    <main class="main">
 
-        <div class="content">
+        <section class="hero">
 
-            <img src="/images/joelle.png" alt="Picture of Joelle">
+            <div class="hero-yellow">
 
-            <div class="intro">
+                <div class="hero-yellow-leftContent">
+                    <img src="/UX_UI_HW_17/images/joelle.png" alt="Picture of Joelle">
+                </div>
 
-                <h4> Hi, I'm </h4>
-                <h1> JOELLE </h1>
-                <h2> WONG </h2>
+                <div class="hero-yellow-rightContent">
+                    <img class="accent" src="./images/accent.svg" alt="accent">
+                    <h4 class="hero-yellow-rightContent-h4"> Hi, Im </h4>
+                    <h1 class="hero-yellow-rightContent-h1">
+                        Joelle
+                        <span class="hero-yellow-rightContent-heading"> Wong </span>
+                    </h1>
+                </div>
 
             </div>
 
-        </div>
+            <div class="wordContainer">
+                <p class="wordContainer-text"> I am passionate about making functional stuff look pretty. </p>
+            </div>
+            
+        </section>
 
-        <h5> I am passionate about making functional stuff look pretty. </h5>
-
-    </section>
+    </main>
 
 
-    <footer>
+    <footer class="footer">
 
         <div class="contact">
 
-            <h3> Contact Me! </h3>
+            <div class="heading">
+                <h3 class="heading-text"> Contact Me! </h3>
+            </div>
 
             <form>
-
                 <label for="name"> Name </label> <br>
                 <input type="text" name="name"> <br><br>
                 <label for="email"> Email </label> <br>
@@ -78,16 +86,13 @@
                 <label for="message"> Your Message Here... </label> <br>
                 <input type="text" name="message"> <br><br>
                 <input type="submit" value="SEND!">
-
             </form>
 
         </div>
 
         <div class="social">
-
-            <a href="https://www.instagram.com/artsyjoejoe/"> <img src="/images/instagram.png" alt="Instagram" width="45" height="45"> </a>
-            <a href="https://www.linkedin.com/in/joelle-wong-1a4076163/"> <img src="/images/linkedin.png" alt="LinkedIn" width="45" height="45"> </a>
-
+            <a href="https://www.instagram.com/artsyjoejoe/"> <img src="/UX_UI_HW_17/images/instagram.png" alt="Instagram" width="45" height="45"> </a>
+            <a href="https://www.linkedin.com/in/joelle-wong-1a4076163/"> <img src="/UX_UI_HW_17/images/linkedin.png" alt="LinkedIn" width="45" height="45"> </a>
         </div>
 
     </footer>

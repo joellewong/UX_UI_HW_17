@@ -1,20 +1,35 @@
+/* ---- CSS Reset ---- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* ----------------- */
 /*       FONTS       */
 /* ----------------- */
+@font-face {
+    font-family: Agrandir Grand-Heavy;
+    src: url(/UX_UI_HW_17/fonts/Agrandir-GrandHeavy.woff);
+}
+@font-face {
+    font-family: Agrandir Grand-Light;
+    src: url(/UX_UI_HW_17/fonts/Agrandir-GrandLight.woff);
+}
+
 h1 {
-    font-family: 'Unbounded', cursive;
-    font-weight: 800;
-    font-size: 78px;
+    font-family: "Agrandir Grand-Heavy", Helvetica, sans-serif;
+    font-size: 6em;
     margin: auto;
 }
 h2 {
-    font-family: 'Unbounded', cursive;
+    font-family: 'Agrandir Grand-Light', Helvetica, sans-serif;
     font-weight: 200;
     font-size: 78px;
     margin: auto;
 }
 h3 {
-    font-family: 'Unbounded', cursive;
+    font-family: 'Agrandir Grand-Heavy', Helvetica, sans-serif;
     font-weight: 400;
     font-size: 36px;
 }
@@ -22,12 +37,6 @@ h4 {
     font-family: 'Poppins', Arial, sans-serif;
     font-weight: 400;
     font-size: 36px;
-}
-h5 {
-    font-family: 'Poppins', Arial, sans-serif;
-    font-weight: 400;
-    font-style: italic;
-    font-size: 24px;
 }
 p {
     font-family: 'Poppins', Arial, sans-serif;
@@ -38,27 +47,39 @@ p {
 /* -------------------- */
 /*        HEADER        */
 /* -------------------- */
-header {
-    display: flex;
-    justify-content: space-between;
-    padding: 32px;
+.header {
+    min-height: 60px;
+    padding: 20px;
 }
-.inline-block {
+
+.nav {
+    max-width: 75%;
     display: flex;
+    margin: 0 auto;
+    align-items: center;
 }
-.navigation li {
-    display: inline-block;
-    margin-right: 25px;
+.nav-links {
     text-decoration: none;
-}
-.navigation li a {
+    color: black;
     font-family: 'Poppins', Arial, sans-serif;
-    font-style: italic;
-    font-weight: 500;
-    font-size: 20px;
-    text-decoration: none;
-    color: #150e36;
 }
+.nav-items {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 26px;
+}
+.fa-brands.fa-linkedin-in {
+    background: black;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
 
 /* ------------------------- */
 /*       HERO SECTION        */
