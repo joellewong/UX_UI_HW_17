@@ -142,15 +142,15 @@ input[type=submit] {
 /* ----------------- */
 @font-face {
     font-family: Agrandir Grand-Heavy;
-    src: url(/UX_UI_HW_17/fonts/Agrandir-GrandHeavy.woff);
+    src: url(/fonts/Agrandir-GrandHeavy.woff);
 }
 @font-face {
     font-family: Agrandir Grand-Light;
-    src: url(/UX_UI_HW_17/fonts/Agrandir-GrandLight.woff);
+    src: url(/fonts/Agrandir-GrandLight.woff);
 }
 @font-face {
     font-family: Agrandir Text-Bold;
-    src: url(/UX_UI_HW_17/fonts/Agrandir-TextBold.woff);
+    src: url(/fonts/Agrandir-TextBold.woff);
 }
 
 h1 {
