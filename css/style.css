@@ -155,17 +155,17 @@ input[type=submit] {
 
 h1 {
     font-family: "Agrandir Grand-Heavy", Helvetica, sans-serif;
-    font-size: 5em;
+    font-size: 64px;
     letter-spacing: 0.5rem;
 }
 h2 {
     font-family: 'Agrandir Grand-Light', Helvetica, sans-serif;
-    font-size: 5em;
+    font-size: 64px;
     letter-spacing: 0.5rem;
 }
 h3 {
     font-family: 'Agrandir Text-Bold', Helvetica, sans-serif;
-    font-size: 3em;
+    font-size: 48px;
 }
 h4 {
     font-family: 'Poppins', Arial, sans-serif;
@@ -175,7 +175,7 @@ h4 {
 p {
     font-family: 'Poppins', Arial, sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 18px;
 }
 a {
     font-family: 'Poppins', Arial, sans-serif;
